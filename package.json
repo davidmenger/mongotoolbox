@@ -1,5 +1,5 @@
 {
-  "name": "mongo-ensure-index",
+  "name": "mongotools",
   "version": "0.0.1",
   "description": "Utility for MongoDB native driver which adds unexisting indexes and removes unused",
   "main": "index.js",
