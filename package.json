@@ -1,0 +1,31 @@
+{
+  "name": "mongo-ensure-index",
+  "version": "0.0.1",
+  "description": "Utility for MongoDB native driver which adds unexisting indexes and removes unused",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidmenger/mongotools"
+  },
+  "keywords": [
+    "mongodb",
+    "ensure",
+    "index",
+    "migrations"
+  ],
+  "peerDependencies": {
+    "mongodb": "~2.2.4"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "David Menger",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "mongodb": "^2.2.4"
+  }
+}
