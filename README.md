@@ -1,4 +1,4 @@
-# Mongotools
+# Mongotoolbox
 
 MongoDB toolbox for index management and simple connection to authorized database
 
@@ -60,7 +60,9 @@ mongotools
 
 # API
 
-## connectAndAuth(url: string, options: object)
+## connectAndAuth method
+
+- **connectAndAuth(url: string, options: object)**
     + `url`:  mongodb connection string
     + `options` options for mongodb connect method
         + `options.user`: username for authentication
