@@ -38,4 +38,11 @@ describe('promiseAll()', function () {
             });
     });
 
+
+    it('should return resolved promise, when using empty array', function (done) {
+        promiseAll([])
+            .then(() => done());
+    });
+
+
 });
