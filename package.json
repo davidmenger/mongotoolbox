@@ -1,6 +1,6 @@
 {
   "name": "mongotoolbox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility for MongoDB native driver which adds unexisting indexes and removes unused",
   "main": "index.js",
   "scripts": {
